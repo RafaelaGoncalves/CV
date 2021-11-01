@@ -1,0 +1,269 @@
+:root {
+    --font: "Verdana";
+    --fontColor: black;
+    --backgroundColor: rgb(196, 193, 193);
+}
+
+body {
+    color: var(--fontColor);
+    background-color: var(--backgroundColor);
+}
+
+#name {
+    font: bold 25pt var(--font);
+    margin-top: -250px;
+    margin-left: 167px;
+}
+
+h1 {
+    font: normal 20pt var(--font); 
+    margin-top: 16px;
+}
+
+section {
+    background-color: rgb(235, 231, 231);
+    border-radius: 5px;
+    height: 273px;
+    width: 800px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
+}
+
+#photo {
+    margin-top: 10px;
+    margin-left: -610px;
+}
+
+#photo img {
+    height: 252px;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
+}
+
+#data {
+    font: normal 12pt var(--font);
+}
+
+#data1 {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 210px;
+    color: gray;
+}
+
+#data2 {
+    text-align: left;
+    margin-top: -76px;
+    margin-left: 340px;
+}
+
+#data3 {
+    text-align: left;
+    margin-top: -76px;
+    margin-left: 470px;
+    color: gray;
+}
+
+#data4 {
+    text-align: left;
+    margin-top: -58px;
+    margin-left: 560px;
+}
+
+#instagram {
+    margin-top: 42px;
+    margin-left: 230px;
+}
+
+#instagram img {
+    height: 113px;
+    width: auto;
+    margin-top: -40px;
+    margin-left: -320px;
+}
+
+#instagramLink {
+    font: normal 16pt var(--font);
+    color: var(--fontColor);
+    text-decoration: none;
+}
+
+#data_mobile {
+    display: none;
+}
+
+p {
+    margin-top: -76px;
+}
+
+#center_section {
+    background-color: var(--backgroundColor);
+    box-shadow: 0px 0px 0px;
+    height: 190px;
+    margin-top: 25px;
+}
+
+#education_section {
+    width: 250px;
+    height: 180px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+#education {
+    text-align: center;
+    font: normal 12pt var(--font);
+    margin-top: -12px;
+}
+
+#education2 {
+    color: gray;
+}
+
+#tools_section {
+    width: 270px;
+    height: 180px;
+    margin-top: -182px;
+}
+
+#tools {
+    font: normal 12pt var(--font);
+}
+
+#tools1 {
+    text-align: center;
+    margin-top: -12px;
+}
+
+#language_section {
+    width: 250px;
+    height: 180px;
+    margin-top: -182px;
+    margin-right: 0px;
+}
+
+#language {
+    text-align: center;
+    font: normal 12pt var(--font);
+}
+
+#language1 {
+    color: gray;
+    text-align: left;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+#language2 {
+    text-align: left;
+    margin-top: -76px;
+    margin-left: 144px;
+}
+
+#experience_section {
+    height: 450px;
+    margin-top: 16px;
+}
+
+#experience {
+    font: normal 12pt var(--font);
+    padding: 10px;
+}
+
+.experience_company {
+    font-size: 16pt;
+}
+
+.experience_date {
+    color: gray;
+}
+
+.experience_activities {
+    color: gray;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        width: 100%;
+        margin-left: -1px;
+    }
+
+    section#data_section {
+        height: 100%;
+    }
+
+    div#data_mobile {
+        display: inline;
+    }
+
+    .data_gray {
+        color: gray;
+    }
+
+    h1#name {
+        margin-top: -353px;
+        margin-left: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    div#photo {
+        margin-top: 110px;
+        margin-left: 6px;
+    }
+
+    div#data1 {
+        display: none;
+    }
+
+    div#data2 {
+        display: none;
+    }
+
+    div#data3 {
+        display: none;
+    }
+
+    div#data4 {
+        display: none;
+    }
+
+    div#instagram {
+        margin-top: 65px;
+        margin-left: 88px;
+        padding-bottom: 25px;
+    }
+
+    section#education_section {
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    section#tools_section {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    section#language_section {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    div#language1 {
+        margin-left: 15%;
+    }
+
+    div#language2 {
+        margin-left: 70%;
+    }
+
+    section#experience_section {
+        height: 100%;
+        margin-top: 390px;
+    }
+}
